@@ -3,7 +3,7 @@ import { FaTwitter } from "react-icons/fa";
 export default function GeneratedTweet() {
   return (
     <div className="border rounded-lg p-4 shadow-sm bg-white">
-      <h3 className="text-red-500 font-semibold mb-2">👀 Generated Tweet</h3>
+      <h3 className="text-red-500 font-semibold mb-2">👁️ Generated Tweet</h3>
 
       {/* Text inside its own container */}
       <div className="border rounded-md p-3 bg-gray-50">

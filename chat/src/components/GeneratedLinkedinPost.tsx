@@ -3,7 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 export default function GeneratedLinkedinPost() {
   return (
     <div className="border rounded-lg p-4 shadow-sm bg-white">
-      <h3 className="text-blue-700 font-semibold mb-2">👔 Generated LinkedIn Post</h3>
+      <h3 className="text-red-700 font-semibold mb-2">👁️ Generated LinkedIn Post</h3>
 
       <div className="border rounded-md p-3 bg-gray-50">
         <p className="text-sm text-gray-800">
@@ -22,7 +22,7 @@ export default function GeneratedLinkedinPost() {
       </div>
 
       <div className="mt-3 flex gap-2 w-full">
-        <button className="flex-1 bg-blue-700 text-white text-sm px-3 py-2 rounded-lg flex items-center justify-center gap-2">
+        <button className="flex-1 bg-red-700 text-white text-sm px-3 py-2 rounded-lg flex items-center justify-center gap-2">
           <FaLinkedin className="text-white" /> Post on LinkedIn
         </button>
         <button className="flex-1 border text-sm px-3 py-2 rounded-lg">

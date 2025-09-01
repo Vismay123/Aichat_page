@@ -38,7 +38,7 @@ export default function LinkedinAssistant({ onSubmit }: Props) {
   return (
     <div className="bg-white rounded-2xl shadow-md p-6 border md:col-span-2 flex flex-col">
       <div className="flex items-center gap-2 mb-4">
-        <FiSend className="text-blue-700 text-lg" />
+        <FiSend className="text-red-700 text-lg" />
         <h2 className="text-lg font-semibold">LinkedIn Chat Assistant</h2>
       </div>
 
@@ -51,7 +51,7 @@ export default function LinkedinAssistant({ onSubmit }: Props) {
             <div
               className={`px-3 py-2 rounded-lg inline-block break-words max-w-[70%] ${
                 msg.type === "user"
-                  ? "bg-blue-600 text-white text-right"
+                  ? "bg-red-600 text-white text-right"
                   : "bg-gray-200 text-gray-900 text-left"
               }`}
             >
@@ -72,7 +72,7 @@ export default function LinkedinAssistant({ onSubmit }: Props) {
 
         <button
           type="submit"
-          className="bg-blue-700 text-white w-12 h-12 rounded-lg flex items-center justify-center"
+          className="bg-red-700 text-white w-12 h-12 rounded-lg flex items-center justify-center"
         >
           <FiSend />
         </button>
